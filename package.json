@@ -1,0 +1,30 @@
+{
+  "name": "@pjblog/axios",
+  "version": "1.0.0",
+  "description": "pjblog axios support",
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
+  "exports": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist && rollup -c --bundleConfigAsCjs"
+  },
+  "dependencies": {
+    "@codixjs/codix": "^1.0.17",
+    "@codixjs/fetch": "^1.0.19",
+    "@pjblog/axios": "^1.0.3",
+    "react-error-boundary": "^3.1.4"
+  },
+  "devDependencies": {
+    "rollup": "^3.2.3",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.8.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
