@@ -1,5 +1,5 @@
 {
-  "name": "@pjblog/axios",
+  "name": "@pjblog/react-codix-hooks",
   "version": "1.0.0",
   "description": "pjblog axios support",
   "main": "./dist/index.js",
